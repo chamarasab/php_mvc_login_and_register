@@ -120,22 +120,24 @@ return [
   - Method: POST
   - Body: JSON
 
-  ```
-    {
-      "email": "john.doe@example.com",
-      "password": "securepassword"
-    }
-  ```
+  - Request
 
-      - Response
-      ```
+    ```
+      {
+        "email": "john.doe@example.com",
+        "password": "securepassword"
+      }
+    ```
+
+  - Response
+    ```
       {
         "message": "Login successful",
         "user": {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john.doe@example.com",
-            "logged_at": "2024-07-18 12:34:56"
-            }
+          "id": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "logged_at": "2024-07-18 12:34:56"
         }
-      ```
+      }
+    ```
