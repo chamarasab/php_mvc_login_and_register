@@ -42,7 +42,7 @@ class UserController extends Controller
 
         if ($user && password_verify($input['password'], $user['password'])) {
             $userModel->updateLoginTime($user['id']);
-            
+
             // Filter the user data to remove unnecessary indexed elements
             $filteredUser = [
                 'id' => $user['id'],
@@ -57,4 +57,3 @@ class UserController extends Controller
         }
     }
 }
-?>
