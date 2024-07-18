@@ -120,9 +120,10 @@ return [
   - Method: POST
   - Body: JSON
 
-  ```{
-        "email": "john.doe@example.com",
-        "password": "securepassword"
+  ```
+    {
+      "email": "john.doe@example.com",
+      "password": "securepassword"
     }
   ```
 
