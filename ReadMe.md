@@ -41,7 +41,7 @@ This project is a simple PHP API for user registration and login. It is structur
 ## Directory Structure
 
 ```
-/your-api-project
+/php_mvc_login_and_register
 │
 ├── /public
 │   └── index.php
