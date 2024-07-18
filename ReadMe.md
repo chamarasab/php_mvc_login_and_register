@@ -17,8 +17,8 @@ This project is a simple PHP API for user registration and login. It is structur
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/chamasab/php_mvc_login_and_register.git
+   cd php_mvc_login_and_register
    ```
 
 2. **Install Composer dependencies**:
