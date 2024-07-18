@@ -114,12 +114,17 @@ return [
     }
   ```
 
-- Login - URL: /login - Method: POST - Body: JSON
-  `    {
+- Login
+
+  - URL: /login
+  - Method: POST
+  - Body: JSON
+
+  ```{
         "email": "john.doe@example.com",
         "password": "securepassword"
     }
-   `
+  ```
 
       - Response
       ```
